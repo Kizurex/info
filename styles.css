@@ -27,8 +27,13 @@ footer {
     width: 100%;
 }
 
+/* Classes */
 .click-test {
     border-radius: 6px;
+}
+
+.contact-desc {
+    color: #cacaca;
 }
 
 .quick-nav {
