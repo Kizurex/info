@@ -26,3 +26,31 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.click-test {
+    border-radius: 6px;
+}
+
+.quick-nav {
+    background-color: #dbdbdb;
+    color:#fff;
+
+    border-radius: 4px;
+    
+    position: fixed;
+    width: 70%
+}
+
+.quick-nav-button {
+    /* Color */
+    background-color: #fff;
+    border-color: #000;
+    
+    border-radius: 4px;
+
+    position: relative;
+}
+
+.quick-nav-button-hover {
+    background-color: #b4b4b4;
+}

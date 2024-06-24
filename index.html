@@ -8,23 +8,31 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Kizurex's portfolio!</h1>
+        <h1>Kizurex's Portfolio</h1>
     </header>
     <main>
         <p>Test paragraph.</p>
-        <button id="test-button">Random button that you should click.</button>
-        <p id="test"></p>
+        <button class="click-test" onclick="countClick()">Random button that you should click.</button>
+        <p id="click-test"></p>
 
         <section>
             <h2>My YouTube Channel!</h2>
             <a href="https://www.youtube.com/@kizurex">
-                <img src="assets/yt_icon_rgb.png" alt="youtube.com/@kizurex" width="200" height="200">
+                <img src="assets/yt_icon_rgb.png" alt="youtube.com/@kizurex">
             </a>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 @Kizurex</p>
+        <p>&copy; 2024 Kizurex. All rights reserved.</p>
     </footer>
+
+    <!-- Fixed Buttons -->
+     <div class="quick-nav">
+        <button class="quick-nav-button">Home</button>
+        <button class="quick-nav-button">Work</button>
+        <button class="quick-nav-button">Contact</button>
+     </div>
+
     <script src="app.js"></script>
 </body>
 </html>
